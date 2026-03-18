@@ -3,7 +3,7 @@ FROM ghcr.io/bluesky-social/pds:latest
 
 # --- إعدادات البيئة لـ Render ---
 # Render يستخدم المنفذ 10000 افتراضياً للخدمات المجانية
-ENV PDS_HOSTNAME="your-app-name.onrender.com" 
+ENV PDS_HOSTNAME="aaa55aaa.onrender.com" 
 ENV PDS_PORT=10000
 ENV PDS_DATA_DIRECTORY="/data"
 ENV PDS_BLOBSTORE_DISK_LOCATION="/data/blobs"
